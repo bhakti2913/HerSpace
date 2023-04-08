@@ -55,6 +55,7 @@
     margin: 10px 0;
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 12vh;
 }
@@ -63,6 +64,7 @@
     height: 35vh;
     // background-color: brown;
     display: flex;
+    margin: 2%;
     flex-direction: column;
 }
 .card{

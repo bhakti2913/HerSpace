@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .wave{
     height:8vh;
     width:100%;
     font-size:40px;
     text-align:center;
-    font-family: 'Pacifico', cursive;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-weight: 800;
-    background-color: #E9C1F6;
+    color: white;
+    background-color: #332E91;
     z-index: 1000;
 }
 .custom-shape-divider-top-1644313685 {
@@ -27,7 +30,7 @@
 }
 
 .custom-shape-divider-top-1644313685 .shape-fill {
-    fill: #E9C1F6;
+    fill: #332E91;
 }
 .main
 { 

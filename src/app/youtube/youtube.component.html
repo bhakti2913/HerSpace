@@ -9,48 +9,15 @@
     </div>
     <div class="product">
          <div class="one">
-             <div class="first">
-                <div class="card">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cjbgZwgdY7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div> 
-               <div class="name">Why do women have periods</div>
-            </div> 
-             <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/tOluxtc3Cpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">Menstural Cycle</div>
-            </div> 
-             <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/wlhSromasF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">Menstural Healt and Hygiene</div>
-            </div> 
+            
+             <div class="first" *ngFor ="let channel of channels">
+                <a href="https://www.youtube.com/watch?v={{channel.id.videoId}}">
+                <div class="card"><img width="100%" height="100%" src="{{channel.snippet.thumbnails.medium.url}}"></div>
+                <div class="name">{{channel.snippet.title}}</div></a>
+                </div>
+            
         </div> 
-         <div class="one">
-            <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/MB1rb_C544U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">Talk with Gynaecologist</div>
-            </div>
-            <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q2v0VYJBjTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">Contraceptions</div>
-            </div>
-            <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/UYoD239cq6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">How to avoid period rashes</div>
-            </div>
-        </div> 
-         <div class="one">
-            <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/tgXpWtGFbwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">How to use a Menstural Cup</div>
-            </div>
-            <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/6UykBMEEtRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">How to use a Tampons</div>
-            </div>
-            <div class="first">
-                <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/afVl9Zgnk8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="name">PCOS/PCOD</div>
-             </div>
-        </div> 
+         
+        
     </div> 
 </div>
