@@ -28,6 +28,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { AuthService } from './services/auth.service';
 // import { FormGroup, FormControl } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
+import { YoutubeService } from './services/youtube.service';
 
 @NgModule({
   declarations: [
@@ -54,9 +56,10 @@ import { AuthService } from './services/auth.service';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     // GoogleAuthProvider,
+    HttpClientModule
   ],
   providers: [
-    ScreenTrackingService,UserTrackingService,AuthService
+    ScreenTrackingService,UserTrackingService,AuthService,YoutubeService
     // GoogleAuthProvider
   ],
   bootstrap: [AppComponent]
