@@ -1,15 +1,14 @@
 export const environment = {
-    firebase: {
-    
-    apiKey: "AIzaSyChZMJSzLUOIUOADZ-6fuCVHqsE31Zwv84",
-    authDomain: "herspace-8cbad.firebaseapp.com",
-    projectId: "herspace-8cbad",
-    storageBucket: "herspace-8cbad.appspot.com",
-    messagingSenderId: "515435138762",
-    appId: "1:515435138762:web:f2bbf0d547afaf83beae33",
-    measurementId: "G-NTYF41M5NG"
-  
-    },
-    production: true
-  };
-  
+  firebase: {
+    projectId: 'women-c',
+    appId: '1:70749483066:web:44d65967d4dcd483220503',
+    databaseURL: 'https://women-c-default-rtdb.firebaseio.com',
+    storageBucket: 'women-c.appspot.com',
+    locationId: 'us-central',
+    apiKey: 'AIzaSyBoIJ-K4t6uAq23xWo4ZXft_PU0jFkem9k',
+    authDomain: 'women-c.firebaseapp.com',
+    messagingSenderId: '70749483066',
+    measurementId: 'G-NGM8VZ0VV6',
+  },
+  production: true
+};

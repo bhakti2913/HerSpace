@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "herspace-8cbad"
+    "default": "women-c"
+  },
+  "targets": {
+    "women-c": {
+      "hosting": {
+        "women-c": [
+          "women-c"
+        ]
+      }
+    }
   }
 }

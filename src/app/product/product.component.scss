@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.full{
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #fff;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+}
+.top{
+    height: 10vh;
+    background-color: #E9C1F6;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 200;
+    font-family: 'Pacifico', cursive;
+
+}
+.custom-shape-divider-top-1644313685 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    // margin-top: 11.3vh;
+    // margin-right:0.5vw;
+}
+
+.custom-shape-divider-top-1644313685 svg {
+     position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-top-1644313685 .shape-fill {
+    fill: #E9C1F6;
+}
+.product{
+    height: 80vh;
+    // background-color: darkkhaki;
+    width: 100%;
+    display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.two{
+    width: 100%;
+    height:45vh;
+    // background-color: rgb(202, 150, 81);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4vh 0vh;
+}
+.four{
+    width:20%;
+    height: 45vh;
+    // background-color: royalblue;
+	margin:2%;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	// min-width: 320px;
+	// max-width: 480px;
+	// max-height: 360px;
+	height:40vh;
+	width: 100%;
+	// background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+	margin-top: -0.8vh;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.pic{
+	margin-top: 2vh;
+	background-size: cover;
+
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	 position: absolute;
+	// margin-top: 10vh;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+	// margin-top: 4vh;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p
+
+{
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+figure.effect-sadie figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+figure.effect-sadie h2 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color: #484c61;
+	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	transition: transform 0.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-sadie:hover h2 {
+	color: #fff;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.kri{
+	height:5vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	 background-color: #e9c1f6;
+}
+.amount{
+	width:75%;
+	// background-color: #484c61;
+	font-size: 1.5em;
+	font-weight: 500;
+
+}
+// .button{
+// 	height: 4vh;
+// }
