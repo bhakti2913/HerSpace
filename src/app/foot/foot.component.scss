@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .footer{
     
     // margin-top: 100vh;
     // position: relative;
     height: 30vh;
     width: 100vw;
-    background: #c7a0d7;
+    background: #332E91;
     // margin-top: 20vh;
     display: flex;
     justify-content: center;
@@ -38,7 +39,7 @@
 }
 
 .custom-shape-divider-bottom .shape-fill {
-    fill: #c7a0d7;
+    fill: #332E91;
    
 }
 
@@ -76,7 +77,7 @@
     height: 27vh;
     width: 25vw;
     // background-image: url(../assets/images/flower.png);
-    // background-color: #c7a0d7;
+    background-color: #332E91;
     margin-bottom: 2vh;
 }
 .flower{
@@ -97,12 +98,14 @@
     // background-color: #c7a0d7;
 }
 .text h1{
-    color: black;
-    font-family: 'Pacifico', cursive;
+    color: #FF8197;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
 }
 .footer p{
-    color: black;
-    font-family: 'Pacifico', cursive;
+    color: white;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 0.5cm;
 }
 .contact{
@@ -150,6 +153,6 @@ button{
     width: 30%;
     justify-content: center;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 0.4cm;
 }

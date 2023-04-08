@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
 
 .nav {
   width: 100vw;
-  height: 10vh;
+  height: 12vh;
   align-items: center;
-  background-color: #e9c1f6;
+  background-color: #332E91;
   z-index: 999;
 }
 
-.nav__list{
+.nav .nav__list{
   display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 10;
-    font-family: 'Pacifico', cursive;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Alkatra', cursive;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 130%;
     margin-top: -12vh;
+    // color: #FF8197;
 }
 
 .nav__listlogo{
@@ -37,13 +41,18 @@
 }
 
 .nav_pics{
-  height: 6vh;
-  width: 4vw;
+  height: 4.5vh;
+  width: 3.2vw;
 }
 
 .nav_name{
+  // background-color: white;
+  color: white;
   text-align: center;
-  padding-bottom: 3px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  // padding-bottom: 3px;
 }
 
 .nav__list .nav__line{
@@ -69,7 +78,7 @@ a {
         position: absolute;
         left: 0.9rem;
         bottom: 0.8rem;
-        background-color: purple;
+        background-color: #FF8197;
         transition: width 200ms ease-in;
       }
 

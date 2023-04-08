@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+
     
 .coverpage {
     height: 100vh;
     width: 100vw;
-    background-color: #E9C1F6;
+    background-color: #332E91;
     display: flex;
     flex-direction: column;
 }
@@ -128,9 +137,10 @@
     overflow: hidden;
 }
 .dynamic-txts li{
-    color: black;
+    color: white;
     list-style: none;
     font-family: 'The Nautigal', cursive;
+    // font-family: 'Alkatra', cursive;
     font-size: 80px;
     font-weight: 400;
     position: relative;
@@ -151,8 +161,8 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: #E9C1F6;
-    border-left: 2px solid #fc6d60;
+    background: #332E91;
+    border-left: 2px solid #FF8197;
     animation: typing 5s steps(31) infinite;
 
 }
@@ -193,13 +203,25 @@
     height: 25%;
     text-align: center;
     color: black;
-    font-family: 'Pacifico', cursive;
+    // font-family: 'Pacifico', cursive;
+    // font-family: 'Alkatra', cursive;
+    // font-family: 'Courgette', cursive;
+    // font-family: 'Sedgwick Ave Display', cursive;
+    // font-family: 'Alkatra', cursive;
+    // font-family: 'Chivo Mono', monospace;
+    // font-family: 'Courgette', cursive;
+    // font-family: 'Francois One', sans-serif;
+    // font-family: 'Sedgwick Ave Display', cursive;
+    // font-family: 'Francois One', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 4em;
 }
 .body-about{
     height: 75%;
     color: black;
-    font-family: 'Roboto Slab', serif;
+    // font-family: 'Roboto Slab', serif;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Courgette', cursive;
     font-size: 1.3em;
     text-align: center;
     align-items: center;
@@ -209,7 +231,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: pink;
+    background-color: #332E91;
     display: flex;
     flex-direction: column;
 }
@@ -235,9 +257,14 @@
 .creater{
     width: 100vw;
     height: 20vh;
-    font-family: 'Pacifico', cursive;
+    // font-family: 'Pacifico', cursive;
+    // font-family: 'Alkatra', cursive;
+    // font-family: 'Courgette', cursive;
+    // font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 4em;
     text-align: center;
+    color: white;
 }
 .catalogue{
     width: 100vw;
@@ -260,7 +287,7 @@
     align-items: center;
 }
 .name{
-    background: #c7a0d7;
+    background: #ffccd5;
     height: 90%;
     width: 19vw;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -270,9 +297,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-family:'The Nautigal', cursive;
+    // font-family:'The Nautigal', cursive;
+    // font-family: 'Alkatra', cursive;
+    // font-family: 'Courgette', cursive;
+    // font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Lobster', cursive;
     font-weight: 800;
-    font-size: 2em;
+    font-size: 1.5em;
     transition: 0.5s;
 }
 .image{
@@ -285,9 +316,12 @@
 }
 .intro{
     height: 10vh;
-    font-family: 'Roboto Slab', serif;
+    // font-family: 'Roboto Slab', serif;
+    // font-family: 'Alkatra', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Courgette', cursive;
     font-weight: 400;
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-align: center;
 }
 .name:hover{
@@ -317,7 +351,7 @@
 }
 
 .custom-shape-divider-bottom-1644339328 .shape-fill {
-    fill: pink;
+    fill: #332E91;
 }
 
 .container1{
@@ -332,7 +366,8 @@
     width: 100vw;
     text-align: center;
     color: black;
-    font-family: 'Pacifico', cursive;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 4em;
 }
 .catalogues{
@@ -360,7 +395,8 @@
     width: 20vw;
     background-color: rgb(236, 177, 105);
     border-radius: 10px;
-    font-family: 'Roboto Slab', serif;
+    // font-family: 'Roboto Slab', serif;
+    font-family: 'Francois One', sans-serif;
     font-size: 1em;
     text-align: center;
 }
