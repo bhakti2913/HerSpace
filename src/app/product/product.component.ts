@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
-// import { DatabaseopService } from '../services/databaseop.service';
+
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Component({
@@ -18,7 +18,7 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
     this.getProducts();
     this.as.getUserState().subscribe(res => {
-      if (!res) this.router.navigate(['/signin'])
+      if (!res) this.router.navigate(['/product'])
       this.user = res;
     });
   }
