@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import{ YoutubeService } from 'src/app/services/youtube.service'
@@ -18,6 +18,7 @@ export class YoutubeComponent implements OnInit {
   ]
   user: any;
   channels:any;
+  @ViewChild('videoName') videoName!: ElementRef;
 
   constructor(private as: AuthService, private router: Router,private youtube:YoutubeService) { }
 
@@ -39,6 +40,12 @@ export class YoutubeComponent implements OnInit {
   
 
   }
-  
 
+  getdata(){
+    var videoName = this.videoName.nativeElement.value
+    this.youtube.getChannels(videoName).subscribe((data:any) => {
+      console.log(data)
+      this.channels = data.items
+  })
+}
 }
