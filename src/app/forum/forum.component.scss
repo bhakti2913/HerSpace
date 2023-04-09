@@ -71,7 +71,7 @@ input {
 }
 
 .adjust2{
-    height:110vh;
+    height:160vh;
     width:100vw;
     background-color:#fdb5c1;
     display: flex;
@@ -79,7 +79,7 @@ input {
     justify-content: center;
 }
 .information {
-    height: 110vh;
+    height: 160vh;
     width: 30%;
     // background-color: beige;
     display: flex;
@@ -88,6 +88,7 @@ input {
     justify-content: center;
     margin-left: 10%;
     text-align: center;
+    overflow: scroll;
 }
 .illus{
     height: 70%;
