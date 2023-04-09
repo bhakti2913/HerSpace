@@ -1,0 +1,42 @@
+.wave{
+    height:8vh;
+    width:100%;
+    font-size:40px;
+    text-align:center;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    color: white;
+    background-color: #332E91;
+    z-index: 1000;
+}
+.custom-shape-divider-top-1644313685 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    // margin-top: 11.3vh;
+    // margin-right:0.5vw;
+}
+
+.custom-shape-divider-top-1644313685 svg {
+     position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-top-1644313685 .shape-fill {
+    fill: #332E91;
+}
+
+.form_pre{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 30%;
+    // background-color: aqua;
+    margin-left: 35%;
+}

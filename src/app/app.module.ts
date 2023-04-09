@@ -30,6 +30,7 @@ import { AuthService } from './services/auth.service';
 // import { FormGroup, FormControl } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http'
 import { YoutubeService } from './services/youtube.service';
+import { PredictionComponent } from './prediction/prediction.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { YoutubeService } from './services/youtube.service';
     ProductComponent,
     YoutubeComponent,
     PerioddateComponent,
+    PredictionComponent,
   ],
 
   imports: [
