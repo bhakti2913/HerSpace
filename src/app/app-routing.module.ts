@@ -10,7 +10,7 @@ import { ProductComponent } from './product/product.component';
 import { YoutubeComponent } from './youtube/youtube.component';
 import { PerioddateComponent } from './perioddate/perioddate.component';
 import { ForumComponent } from './forum/forum.component';
-import { PredictionFormComponent } from './prediction/prediction.component';
+import {ExternalLinkComponent } from './prediction/prediction.component';
 
 const routes: Routes = [ 
 {
@@ -31,7 +31,7 @@ const routes: Routes = [
 },
 {
   path: 'predic',
-  component: PredictionFormComponent,  
+  component: ExternalLinkComponent,  
 },
 {
   path: 'mood',

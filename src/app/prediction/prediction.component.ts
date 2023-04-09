@@ -70,7 +70,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-external-link',
   template: `
-    <button (click)="goToExternalUrl()">Go to External URL</button>
+    <button (click)="goToExternalUrl()">Get Prediction</button>
   `
 })
 export class ExternalLinkComponent {
