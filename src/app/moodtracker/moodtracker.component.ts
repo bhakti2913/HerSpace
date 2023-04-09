@@ -232,7 +232,7 @@ getperioddata(i:number,j:number){
     diff = Math.floor(diff / (1000 * 60 * 60 * 24));
     // console.log(diff, date, this.month, 'heyy', d1, d2);
     
-    if (diff % this.cycle >= this.flow + 14 && diff % this.cycle < this.flow + 28 ) {
+    if (diff % this.cycle >= 14 && diff % this.cycle <  28 ) {
       return true;
     }
     return false;
@@ -254,7 +254,7 @@ getperioddata(i:number,j:number){
     diff = Math.floor(diff / (1000 * 60 * 60 * 24));
     // console.log(diff, date, this.month, 'heyy', d1, d2);
     
-    if (diff % this.cycle >= this.flow + 2 && diff % this.cycle  ) {
+    if (diff % this.cycle >= 25 && diff % this.cycle < 28 ) {
       return true;
     }
     return false;
