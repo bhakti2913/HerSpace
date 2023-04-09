@@ -193,6 +193,28 @@ getperioddata(i:number,j:number){
     }
     return false;
   }
+
+  isFertility(i: number, j: number) {
+    if (!this.periodboolean) {
+      return false;
+    }
+    var date: any = this.daysofweek(i, j);
+    if (date == '') { return false; }
+    var d1: any = new Date(2023, this.month, date);
+    var d11: any = new Date(this.perioddate);
+    var d2: any = new Date( d11.getFullYear(),  d11.getMonth(), d11.getDate());
+    var diff = (d1 - d2);
+    if (diff < 0) {
+      return false;
+    }
+    diff = Math.floor(diff / (1000 * 60 * 60 * 24));
+    // console.log(diff, date, this.month, 'heyy', d1, d2);
+    
+    if (diff % this.cycle <this.flow-3) {
+      return true;
+    }
+    return false;
+  }
   
   isOvulation(i:number, j: number){
     if (!this.periodboolean) {
@@ -210,12 +232,36 @@ getperioddata(i:number,j:number){
     diff = Math.floor(diff / (1000 * 60 * 60 * 24));
     // console.log(diff, date, this.month, 'heyy', d1, d2);
     
-    if (diff % this.cycle >= this.flow + 4 && diff % this.cycle < this.flow + 8 ) {
+    if (diff % this.cycle >= this.flow + 14 && diff % this.cycle < this.flow + 28 ) {
       return true;
     }
     return false;
   }
 
+  isOvulation1(i:number, j: number){
+    if (!this.periodboolean) {
+      return false;
+    }
+    var date: any = this.daysofweek(i, j);
+    if (date == '') { return false; }
+    var d1: any = new Date(2023, this.month, date);
+    var d11: any = new Date(this.perioddate);
+    var d2: any = new Date( d11.getFullYear(),  d11.getMonth(), d11.getDate());
+    var diff = (d1 - d2);
+    if (diff < 0) {
+      return false;
+    }
+    diff = Math.floor(diff / (1000 * 60 * 60 * 24));
+    // console.log(diff, date, this.month, 'heyy', d1, d2);
+    
+    if (diff % this.cycle >= this.flow + 2 && diff % this.cycle  ) {
+      return true;
+    }
+    return false;
+  }
+
+
+  
 
 
 

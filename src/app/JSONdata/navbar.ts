@@ -18,6 +18,12 @@ export let navbar = [
     },
     {
         "role":"user",
+        "image": "https://firebasestorage.googleapis.com/v0/b/women-c.appspot.com/o/assets%2Fimages%2Ftracker-removebg-preview.png?alt=media&token=df43bd15-c998-49fa-b54e-21e21694c9eb",
+        "name":"PCOS prediction",
+        "link":"/mood",
+    },
+    {
+        "role":"user",
         "image": "https://firebasestorage.googleapis.com/v0/b/women-c.appspot.com/o/assets%2Fimages%2Fblogs-removebg-preview.png?alt=media&token=75b19a4c-e77c-405b-8498-4f3947c29910",
         "name":"Blogs",
         "link":"/blog",
