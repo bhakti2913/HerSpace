@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Sedgwick+Ave+Display&display=swap');
 
 .main {
     // margin : 0;
@@ -12,15 +14,27 @@
 
 .title
 {
-    height :12vh;
-    width : 100%;
-    background-color: #E9C1F6;
-    z-index: 1000;
-    margin-top: -5vh;
-    text-align: center;
+    // height :12vh;
+    // width : 100%;
+    // background-color: #332E91;
+    // font-family: 'Lobster', cursive;
+    // color: white;
+    // z-index: 1000;
+    // margin-top: -5vh;
+    // text-align: center;
+    // font-size:40px;
+    // // font-family: 'Pacifico', cursive;
+    // font-weight: 800;
+    height:8vh;
+    width:100%;
     font-size:40px;
-    font-family: 'Pacifico', cursive;
+    text-align:center;
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-weight: 800;
+    color: white;
+    background-color: #332E91;
+    z-index: 1000;
 }
 .custom-shape-divider-top-1644313685 {
     // position: absolute;
@@ -41,7 +55,7 @@
 }
 
 .custom-shape-divider-top-1644313685 .shape-fill {
-    fill: #E9C1F6;
+    fill: #332E91;
 }
 // .custom-shape-divider-top-1644365657 {
 //     // position: absolute;
@@ -142,7 +156,7 @@
   align-items: center;
   margin-left: 3.5vw;
   overflow: hidden;
-  background-color: chocolate;
+//   background-color: chocolate;
 }
 
 
@@ -152,9 +166,10 @@
     width:100% ;
     // border-radius: 20px;
     align-items: center;
-    background-color: pink;
+    background-color: #FF8197;
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
+    // color: white;
 }
 
 .blog:hover{
@@ -169,6 +184,8 @@
     display: flex;
     align-items:center;
     flex-direction: column;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Courgette', cursive;
     // background-color:burlywood;
 }
 
@@ -176,9 +193,10 @@
 {
     height:8vh;
     width: 70%;
-    background-color: pink;
+    background-color: #FF8197;
     border-radius: 200px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
+    // color: white;
     text-align: center;
     font-size: 28px;
 }
@@ -189,7 +207,7 @@
     width:70%;
     text-align: center;
     align-items:center;
-    background-color: rgb(135, 222, 150);
+    // background-color: rgb(135, 222, 150);
 }
 
 .dec
