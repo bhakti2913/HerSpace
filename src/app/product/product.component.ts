@@ -18,7 +18,7 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
     this.getProducts();
     this.as.getUserState().subscribe(res => {
-      if (!res) this.router.navigate(['/product'])
+      if (!res) this.router.navigate(['/signin'])
       this.user = res;
     });
   }
